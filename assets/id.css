@@ -7,7 +7,7 @@
 }
 
 .password_box{
-    width: 97%;
+    width: 100%;
     margin-top: 20px;
     height: 165px;
     background-color: white;
@@ -45,7 +45,7 @@
 }
 
 .eye{
-    background-image: url('assets/images/eye.png');
+    background-image: url('/assets/images/eye.png');
     position: absolute;
     top: 0;
     bottom: 0;
@@ -60,7 +60,7 @@
 }
 
 .eye_close{
-    background-image: url('assets/images/eye_closed.png');
+    background-image: url('/assets/images/eye_closed.png');
 }
 
 .password_input{
@@ -91,7 +91,7 @@
 .bottom{
     display: grid;
     grid-template-columns: 100%;
-    width: 95%;
+    width: var(--width);
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -145,13 +145,13 @@
 }
 
 .background{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image: url('assets/images/login.png');
+    background-image: url('/assets/images/login.png');
     background-size: 105%;
     background-position: center;
 }
