@@ -1,9 +1,5 @@
+
 var params = new URLSearchParams(window.location.search);
-// Odzyskaj obraz z localStorage jeśli istnieje
-const savedImage = localStorage.getItem('userImage');
-if (savedImage) {
-    params.set('image', savedImage);
-}
 
 document.querySelector(".login").addEventListener('click', () => {
     toHome();
@@ -18,7 +14,7 @@ if (date.getHours() >= 18){
 document.querySelector(".welcome").innerHTML = welcome;
 
 function toHome(){
-    location.href = 'home.html?' + params.toString();
+    location.href = '/home?' + params;
 }
 
 var input = document.querySelector(".password_input");
