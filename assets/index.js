@@ -92,7 +92,7 @@ const closePreview = document.querySelector('.close-preview');
 
 input.addEventListener('input', (event) => {
     const imgurUrl = event.target.value;
-    if (imgurUrl.includes('imgur.com')) {
+    if (imgurUrl.includes('ibb.co')) {
         // Clear previous image from localStorage
         localStorage.removeItem('userImage');
         input.setAttribute("selected");
@@ -190,7 +190,7 @@ document.querySelector(".go").addEventListener('click', () => {
     params.set("sex", sex)
     
     const imageInput = document.querySelector("#image");
-    if (!imageInput.value || !imageInput.value.includes('imgur.com')){
+    if (!imageInput.value || !imageInput.value.includes('ibb.co')){
         empty.push(imageInput.parentElement);
         imageInput.parentElement.classList.add("error_shown");
     } else {
