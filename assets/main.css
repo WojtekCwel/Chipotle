@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-    --home: url('assets/images/home.png');
-    --home-open: url('assets/images/home_open.png');
-    --documents: url('assets/images/documents.png');
-    --documents-open: url('assets/images/documents_open.png');
-    --services: url('assets/images/services.png');
-    --services-open: url('assets/images/services_open.png');
-    --qr: url('assets/images/identity.png');
-    --qr-open: url('assets/images/identity_open.png');
-    --more: url('assets/images/other.png');
-    --more-open: url('assets/images/other_open.png');
+    --home: url('https://imgur.com/FIjEScn');
+    --home-open: url('https://imgur.com/TyLeDrW');
+    --documents: url('https://imgur.com/LLzQ3Zb');
+    --documents-open: url('https://imgur.com/iQ0tFxg');
+    --services: url('https://imgur.com/3nO63QT');
+    --services-open: url('https://imgur.com/F1u4YFC');
+    --qr: url('https://imgur.com/dXebh5A');
+    --qr-open: url('https://imgur.com/khbBwSa');
+    --more: url('https://imgur.com/3UNGYNs');
+    --more-open: url('https://imgur.com/a/VrOnA9H');
     --text: #024b97;
     --shadow: 0px 0px 10px rgb(236, 236, 236);
     --width: 90%;
